@@ -1,0 +1,21 @@
+{
+  "name": "adminjs-multidb-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@adminjs/express": "^4.0.0",
+    "@adminjs/sequelize": "^2.0.0",
+    "adminjs": "^5.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.2",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "tslib": "^2.3.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
