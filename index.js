@@ -8,7 +8,7 @@ dotenv.config({ path: path.join(__dirname, './.env') })
 
 const { createConnections } = require('./connection');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 AdminJS.registerAdapter(AdminJSSequelize);
 const run = async () => {
